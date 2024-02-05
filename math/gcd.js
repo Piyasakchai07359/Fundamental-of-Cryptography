@@ -2,7 +2,7 @@
 This code create for determine Greatest common divisor by using Euclidean algorithm.
 */
 
-function gcd(x,y)
+exports.gcd=function(x,y)
 {
     while(x != y)
     {
